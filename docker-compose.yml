@@ -1,0 +1,68 @@
+version: "3.3"
+services:
+
+  nginx_service:
+    container_name: nginx_server
+    image: nginx_image
+    build:
+      context: ./.docker-local/nginx
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - php_service
+    networks:
+      - project-network
+
+  php_service:
+    container_name: php_server
+    image: php_image
+    build:
+      context: ./.docker-local/php
+      dockerfile: Dockerfile
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    expose:
+      - 9000
+    volumes:
+      - .:/var/www/html
+    networks:
+      - project-network
+
+  postgres_service:
+    container_name: postgres_server
+    image: postgres_image
+    build:
+      context: ./.docker-local/postgres
+      dockerfile: Dockerfile
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "carlos"
+      POSTGRES_PASSWORD: "pass"
+      POSTGRES_DB: "curso"
+      POSTGRES_HOST_AUTH_METHOD: trust
+    volumes:
+      - .:/var/lib/postgresql
+    depends_on:
+      - php_service
+      - nginx_service
+    networks:
+      - project-network
+
+  redis_service:
+    container_name: redis_server
+    image: redis_image
+    build:
+      context: ./.docker-local/redis
+      dockerfile: Dockerfile
+    ports:
+      - "6379:6379"
+    networks:
+      - project-network
+
+networks:
+      project-network:
+
