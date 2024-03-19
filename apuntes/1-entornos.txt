@@ -1,0 +1,14 @@
+#######################################################################################################################
+#### entornos
+#######################################################################################################################
+
+- Entornos por defecto -> dev, test y prod
+
+- Carpetas afectadas -> carpeta config, config/packages y config/routes
+    * Para cada entorno debe existir la ruta config/packages/{entorno} y config/routes/{entorno} para dejar ahi los archivos a sobreescribir con las configuraciones afectadas
+
+- Archivos afectados -> .env
+    * Se puede crear todos los entornos necesarios
+    * La variable APP_ENV en el arvhivo .env es la que indica el entonrno a ejecutar
+    * Nomenclatura para los archivos .env es .env.{entorno} y .env.{entorno}.local
+    * En los casos en los que existe un archivo .local (.env.int.tes) este sobreescribe los valores que intersecten en el archivo no local (.env.int) y el archivo no local intersecta lo que haya en el archivo base (,env)
