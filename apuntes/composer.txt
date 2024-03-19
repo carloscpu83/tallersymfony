@@ -1,0 +1,53 @@
+##########################################################
+########## Instalar dependencia para ejecutar fixtures
+##########################################################
+composer require orm-fixtures --dev
+
+##########################################################
+########## Instalar dependencia para cargar fixtures
+##########################################################
+composer require liip/test-fixtures-bundle --dev
+
+##########################################################
+########## Instalar dependencia para estados
+##########################################################
+composer require symfony/workflow --dev
+
+##########################################################
+########## Instalar dependencia para envio de emails
+##########################################################
+composer require symfony/mailer --dev
+
+##########################################################
+########## Instalar plantillas para estilos en emails
+##########################################################
+composer require twig/cssinliner-extra twig/inky-extra
+
+##########################################################
+########## Instalar dependecia para ejecutar comandos
+##########################################################
+composer require symfony/process
+
+##########################################################
+########## Instalar dependencia para webpack
+##########################################################
+composer require symfony/webpack-encore-bundle
+
+##########################################################
+########## Instalar dependencia para notificaciones
+##########################################################
+composer require symfony/notifier
+
+##########################################################
+########## Instalar dependencia para traducciones
+##########################################################
+composer require symfony/translation
+
+##########################################################
+########## Instalar el profiler de symfony
+##########################################################
+composer require profiler --dev
+
+##########################################################
+##########
+##########################################################
