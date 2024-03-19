@@ -5,6 +5,8 @@ POSTGRES_SERVER_NAME=postgres_server
 DOCKER_NETWORK_IP := $(shell docker network inspect bridge -f '{{range .IPAM.Config}}{{.Gateway}}{{end}}' 2>/dev/null)
 XDEBUG_ROUTE_LOG := /var/www/html/logs/xdebug/xdebug.log
 
+export CURRENT_UID := $(shell id -u):$(shell id -g)
+
 # docker compose up --abort-on-container-exit
 
 define execute_command
@@ -29,7 +31,7 @@ destroy:
 	echo "y" | docker builder prune
 
 install:
-	@if grep "docker-local.es" /etc/hosts; then echo 'Ya existe docker-local.es en /etc/hosts'; else echo '$(DOCKER_NETWORK_IP) docker-local.es' | sudo tee -a /etc/hosts; fi
+	@if grep "taller-symfony-local.es" /etc/hosts; then echo 'Ya existe taller-symfony-local.es en /etc/hosts'; else echo '$(DOCKER_NETWORK_IP) taller-symfony-local.es' | sudo tee -a /etc/hosts; fi
 	docker compose up -d
 
 status:

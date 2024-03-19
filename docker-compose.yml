@@ -30,6 +30,7 @@ services:
       - .:/var/www/html
     networks:
       - project-network
+    user: ${CURRENT_UID}
 
   postgres_service:
     container_name: postgres_server
