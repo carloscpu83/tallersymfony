@@ -1,0 +1,394 @@
+#################################################################
+######### Entornos y archivos de configuracion
+#################################################################
+https://symfonycasts.com/screencast/symfony4-fundamentals/environment-config-files
+
+#################################################################
+######### Variables de entorno
+#################################################################
+https://symfonycasts.com/screencast/symfony-fundamentals/environment-variables
+
+#################################################################
+######### Depuracion con barra profiler
+#################################################################
+https://symfonycasts.com/screencast/symfony4/debug-toolbar-profiler
+
+#################################################################
+######### Administracion de archivos .env
+#################################################################
+https://symfony.com/doc/current/configuration.html#managing-multiple-env-files
+
+#################################################################
+######### SymfonyCasts: tutorial de rutas, controladores y páginas
+#################################################################
+https://symfonycasts.com/screencast/symfony/route-controller
+https://symfony.com/doc/current/routing.html#creating-routes-in-yaml-xml-or-php-files
+
+#################################################################
+######### Anotaciones en PHP
+#################################################################
+https://www.doctrine-project.org/projects/doctrine-annotations/en/1.6/annotations.html
+
+#################################################################
+######### El componente HttpFoundation
+#################################################################
+https://symfony.com/doc/current/components/http_foundation.html
+
+#################################################################
+######### Ataques de seguridad XSS (Cross-Site Scripting)
+#################################################################
+https://owasp.org/www-community/attacks/xss/
+
+#################################################################
+######### La Chuleta de Enrutamiento en Symfony
+#################################################################
+https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/routing_en_part1.pdf
+
+#################################################################
+######### Documentacion Postgresql
+#################################################################
+https://www.postgresql.org/docs/
+
+#################################################################
+######### Bases de datos y Doctrine ORM en aplicaciones Symfony
+#################################################################
+https://symfony.com/doc/current/doctrine.html
+
+#################################################################
+######### Tutorial de Doctrine SymfonyCasts
+#################################################################
+https://symfonycasts.com/screencast/symfony-doctrine/install
+
+#################################################################
+######### Trabajar con Asociaciones/Relaciones de Doctrine
+#################################################################
+https://symfony.com/doc/current/doctrine/associations.html
+
+#################################################################
+######### Documentación de DoctrineMigrationsBundle
+#################################################################
+https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html
+
+#################################################################
+######### Documentación de EasyAdmin
+#################################################################
+https://symfony.com/bundles/EasyAdminBundle/current/index.html
+
+#################################################################
+######### Tutorial de EasyAdminBundle en SymfonyCasts
+#################################################################
+https://symfonycasts.com/screencast/easyadminbundle
+
+#################################################################
+######### Configuración de referencia del *framework* Symfony
+#################################################################
+https://symfony.com/doc/current/reference/configuration/framework.html
+
+#################################################################
+######### Documentación de Twig
+#################################################################
+https://twig.symfony.com/doc/2.x/
+
+#################################################################
+######### Creando y usando plantillas en aplicaciones Symfony
+#################################################################
+https://symfony.com/doc/current/templates.html
+
+#################################################################
+######### Tutorial de Twig en SymfonyCasts
+#################################################################
+https://symfonycasts.com/screencast/symfony5/twig-recipe
+
+#################################################################
+######### Funciones y filtros Twig disponibles solo en Symfony
+#################################################################
+https://symfony.com/doc/current/reference/twig_reference.html
+
+#################################################################
+######### El controlador base AbstractController
+#################################################################
+https://symfony.com/doc/current/controller.html#the-base-controller-classes-services
+
+#################################################################
+######### El flujo de Request-Response en las aplicaciones Symfony
+#################################################################
+https://symfony.com/doc/current/components/http_kernel.html#the-workflow-of-a-request
+
+#################################################################
+######### Los eventos HTTP incorporados en Symfony
+#################################################################
+https://symfony.com/doc/current/reference/events.html
+
+#################################################################
+######### Los eventos Console incorporados en Symfony
+#################################################################
+https://symfony.com/doc/current/components/console/events.html
+
+#################################################################
+######### El sistema de eventos de Doctrine (callbacks del ciclo de vida y oyentes, oyentes de entidades y suscriptores del ciclo de vida)
+#################################################################
+https://symfony.com/doc/current/doctrine/events.html
+
+#################################################################
+######### La documentación del componente String
+#################################################################
+https://symfony.com/doc/current/components/string.html
+
+#################################################################
+######### El contenedor de servicio
+#################################################################
+https://symfony.com/doc/current/service_container.html
+
+#################################################################
+######### La Chuleta de servicios de Symfony
+#################################################################
+https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/services_en_42.pdf
+
+#################################################################
+######### Tutorial de formularios de SymfonyCasts
+#################################################################
+https://symfonycasts.com/screencast/symfony-forms
+
+#################################################################
+######### Cómo personalizar la presentación (renderizado) de formularios Symfony en HTML
+#################################################################
+https://symfony.com/doc/current/form/form_customization.html
+
+#################################################################
+######### Validando formularios de Symfony
+#################################################################
+https://symfony.com/doc/current/forms.html#validating-forms
+
+#################################################################
+######### La referencia de los tipos de formularios Symfony
+#################################################################
+https://symfony.com/doc/current/reference/forms/types.html
+
+#################################################################
+######### La documentación de FlysystemBundle, que proporciona integración con múltiples proveedores de almacenamiento en nube, como AWS S3, Azure y Google Cloud Storage
+#################################################################
+https://github.com/thephpleague/flysystem-bundle/blob/3.x/docs/1-getting-started.md
+
+#################################################################
+######### Los parámetros de configuración de Symfony
+#################################################################
+https://symfony.com/doc/current/configuration.html#configuration-parameters
+
+#################################################################
+######### Las Restricciones de Validación de Symfony
+#################################################################
+https://symfony.com/doc/current/validation.html#basic-constraints
+
+#################################################################
+######### La chuleta de formularios de Symfony
+#################################################################
+https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony2/how_symfony2_forms_works_en.pdf
+
+#################################################################
+######### La documentación de Symfony Security
+#################################################################
+https://symfony.com/doc/current/security.html
+
+#################################################################
+######### Tutorial de SymfonyCasts Security
+#################################################################
+https://symfonycasts.com/screencast/symfony-security
+
+#################################################################
+######### Cómo crear un formulario de inicio de sesión en aplicaciones Symfony
+#################################################################
+https://symfony.com/doc/current/security.html#form-login
+
+#################################################################
+######### La Chuleta de Symfony Security
+#################################################################
+https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/security_en_44.pdf
+
+#################################################################
+######### La documentación del componente HttpClient
+#################################################################
+https://symfony.com/doc/current/http_client.html
+
+#################################################################
+######### Los Procesadores de Variables de Entorno
+#################################################################
+https://symfony.com/doc/current/configuration/env_var_processors.html
+
+#################################################################
+######### La Chuleta de Symfony HttpClient
+#################################################################
+https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/httpclient_en_43.pdf
+
+#################################################################
+######### Testing
+#################################################################
+https://symfony.com/doc/current/testing.html
+
+#################################################################
+######### Crawler
+#################################################################
+https://symfony.com/doc/current/components/dom_crawler.html
+
+#################################################################
+######### Lista de comprobaciones (*assertions*) definidas por Symfony para pruebas funcionales
+#################################################################
+https://symfony.com/doc/current/testing.html#testing-application-assertions
+
+#################################################################
+######### Documentación de PHPUnit
+#################################################################
+https://phpunit.de/documentation.html
+
+#################################################################
+######### La biblioteca Faker para generar datos realistas de fixtures;
+#################################################################
+https://github.com/fzaninotto/Faker
+
+#################################################################
+######### La documentación del componente CssSelector
+#################################################################
+https://symfony.com/doc/current/components/css_selector.html
+
+#################################################################
+######### La biblioteca Symfony Panther para pruebas de navegadores y rastreo web en aplicaciones Symfony
+#################################################################
+https://github.com/symfony/panther
+
+#################################################################
+######### La documentación Make/Makefile
+#################################################################
+https://www.gnu.org/software/make/manual/make.html
+
+#################################################################
+######### Tutorial de SymfonyCasts Messenger
+#################################################################
+https://symfonycasts.com/screencast/messenger
+
+#################################################################
+######### La arquitectura del Enterprise service bus y el patrón CQRS
+#################################################################
+https://en.wikipedia.org/wiki/Enterprise_service_bus
+
+#################################################################
+######### La documentación de Symfony Messenger
+#################################################################
+https://symfony.com/doc/current/messenger.html
+
+#################################################################
+######### Documentación de RabbitMQ
+#################################################################
+https://www.rabbitmq.com/documentation.html
+
+#################################################################
+######### Workflows y máquinas de estado y cuándo elegir cada una de ellas
+#################################################################
+https://symfony.com/doc/current/workflow/workflow-and-state-machine.html
+
+#################################################################
+######### Los documentación de Workflow de Symfony
+#################################################################
+https://symfony.com/doc/current/workflow.html
+
+#################################################################
+######### Tutorial del Mailer en SymfonyCasts
+#################################################################
+https://symfonycasts.com/screencast/mailer
+
+#################################################################
+######### La documentación del lenguaje de plantillas Inky
+#################################################################
+https://foundation.zurb.com/emails/docs/inky.html
+
+#################################################################
+######### Los Procesadores de Variables de Entorno
+#################################################################
+https://symfony.com/doc/current/configuration/env_var_processors.html
+
+#################################################################
+######### La documentación del componente Mailer del framework Symfony
+#################################################################
+https://symfony.com/doc/current/mailer.html
+
+#################################################################
+######### La documentación de SymfonyCloud sobre correos electrónicos
+#################################################################
+https://symfony.com/doc/current/cloud/services/emails.html
+
+#################################################################
+######### Cloudflare , la plataforma global de nube
+#################################################################
+https://www.cloudflare.com/es-es/
+
+#################################################################
+######### Documentación de Varnish HTTP Cache
+#################################################################
+https://varnish-cache.org/docs/index.html
+
+#################################################################
+######### Especificaciones de ESI y recursos para desarrolladores de ESI
+#################################################################
+https://www.w3.org/TR/esi-lang/
+
+#################################################################
+######### Modelo de validación de caché HTTP
+#################################################################
+https://symfony.com/doc/current/http_cache/validation.html
+
+#################################################################
+######### Caché HTTP en SymfonyCloud
+#################################################################
+https://symfony.com/doc/current/cloud/cookbooks/cache.html
+
+#################################################################
+######### Documentación de Webpack
+#################################################################
+https://webpack.js.org/concepts/
+
+#################################################################
+######### Documentación de Symfony Webpack Encore
+#################################################################
+https://symfony.com/doc/current/frontend.html
+
+#################################################################
+######### Tutorial de Webpack Encore en SymfonyCasts
+#################################################################
+https://symfonycasts.com/screencast/webpack-encore
+
+#################################################################
+######### Sintaxis de Cron/crontab
+#################################################################
+https://en.wikipedia.org/wiki/Cron
+
+#################################################################
+######### Repositorio Croncape
+#################################################################
+https://github.com/symfonycorp/croncape
+
+#################################################################
+######### Comandos de Symfony Console
+#################################################################
+https://symfony.com/doc/current/console.html
+
+#################################################################
+######### La Chuleta de Symfony Console
+#################################################################
+https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/console_en_42.pdf
+
+#################################################################
+######### Mensajes flash de Symfony
+#################################################################
+https://symfony.com/doc/current/controller.html#flash-messages
+
+#################################################################
+######### Traducci?n de mensajes utilizando el formateador de la ICU
+#################################################################
+https://symfony.com/doc/current/translation/message_format.html
+
+#################################################################
+######### Uso de filtros de traducci?n Twig
+#################################################################
+https://symfony.com/doc/current/translation.html#translation-in-templates
+
+#################################################################
+#########
+#################################################################

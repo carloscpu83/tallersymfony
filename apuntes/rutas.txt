@@ -1,0 +1,22 @@
+##########################################################
+########## Atributos por ruta
+##########################################################
+- path
+- controller
+- methods
+- resource
+- type
+- prefix
+- host
+- schemes
+- defaults
+- requirements
+- options
+- condition
+- name_prefix
+- trailing_slash_on_root
+- locale
+- format
+- utf8
+- exclude
+- stateless
