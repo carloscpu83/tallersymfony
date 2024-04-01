@@ -3,7 +3,7 @@
 #    controller: App\Controller\DefaultController::index
 
 ruta_request_get:
-  path: /enrutado/prueba-request-get/{valorentero}/{pordefecto}
+  path: /enrutado/prueba-request-get/{valorentero}/{pordefecto}/
   controller: App\Controller\Enrutado\PruebaRequestGetController
   methods: ['GET']
   defaults:
@@ -12,11 +12,21 @@ ruta_request_get:
     valorentero: '\d+'
 
 ruta_request_get_con_querystring:
-  path: /enrutado/prueba-request-get-querystring
+  path: /enrutado/prueba-request-get-querystring/
   methods: 'GET'
   controller: App\Controller\Enrutado\PruebaRequestGetQueryStringController
 
 ruta_request_post_con_headers:
-  path: /enrutado/prueba-request-post-headers
+  path: /enrutado/prueba-request-post-headers/
   methods: POST
   controller: App\Controller\Enrutado\PruebaRequestPostHeadersController
+
+ruta_request_put_content:
+  path: /enrutado/prueba-request-put-content/
+  methods: PUT
+  controller: App\Controller\Enrutado\PruebaRequestPutContentController
+
+ruta_request_funciones_put:
+  path: /enrutado/prueba-funciones-put/ruta/hacia/controller/
+  methods: PUT
+  controller: App\Controller\Enrutado\PruebaRequestFuncionesPutController

@@ -24,21 +24,38 @@ class PruebaRequestGetQueryStringController
         return new JsonResponse($respuesta, Response::HTTP_OK);
     }
 
+    /**
+     * @param Request $request
+     * @return integer
+     */
     private function cantidad(Request $request):int
     {
         return $request->query->count();
     }
 
+    /**
+     * @param Request $request
+     * @return array
+     */
     private function todos(Request $request):array
     {
         return $request->query->all();
     }
 
+    /**
+     * @param Request $request
+     * @param string $key
+     * @return string|null
+     */
     private function individual(Request $request, string $key):?string
     {
         return $request->query->get($key);
     }
 
+    /**
+     * @param Request $request
+     * @return array
+     */
     private function keys(Request $request):array
     {
         return $request->query->keys();
