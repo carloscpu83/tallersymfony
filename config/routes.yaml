@@ -2,6 +2,9 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
+#########################################################################################################################################
+######################## Pruebas entrutado
+#########################################################################################################################################
 ruta_request_get:
   path: /enrutado/prueba-request-get/{valorentero}/{pordefecto}/
   controller: App\Controller\Enrutado\PruebaRequestGetController
@@ -30,3 +33,11 @@ ruta_request_funciones_put:
   path: /enrutado/prueba-funciones-put/ruta/hacia/controller/
   methods: PUT
   controller: App\Controller\Enrutado\PruebaRequestFuncionesPutController
+
+#########################################################################################################################################
+######################## Pruebas redis
+#########################################################################################################################################
+ruta_redis_clave_valor:
+  path: /redis/set/clavevalor/
+  methods: POST
+  controller: App\Controller\Redis\PrubaClaveValorController
