@@ -35,6 +35,28 @@ ruta_request_funciones_put:
   controller: App\Controller\Enrutado\PruebaRequestFuncionesPutController
 
 #########################################################################################################################################
+######################## Pruebas AbstractController
+#########################################################################################################################################
+ruta_generar_rutas:
+  path: /abstractcontroller/generar-rutas/
+  controller: App\Controller\AbstractController\GeneracionRutasController
+  methods: POST
+
+ruta_generada_get:
+  path: /abstractcontroller/ruta-generada-get/{parametrostring1}/{valorPorDefecto}/{paramtronumerico1}/{parametrostring2}/
+  controller: App\Controller\AbstractController\RutasGeneradas\RutaGeneradaGetController
+  methods: GET
+  defaults:
+    valorPorDefecto: 'valorpordefecto'
+
+ruta_generada_post:
+  path: /abstractcontroller/ruta-generada-post/{valorpordefecto}/
+  controller: App\Controller\AbstractController\RutasGeneradas\RutaGeneradaPostController
+  methods: POST
+  defaults:
+    valorpordefecto: 'pordefecto'
+
+#########################################################################################################################################
 ######################## Pruebas redis
 #########################################################################################################################################
 ruta_redis_clave_valor:
