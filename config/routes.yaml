@@ -42,19 +42,22 @@ ruta_generar_rutas:
   controller: App\Controller\AbstractController\GeneracionRutasController
   methods: POST
 
+ruta_redireccion_a_ruta_get:
+  path: /abstractcontroller/redireccion-a-ruta-get/
+  controller: App\Controller\AbstractController\RedireccionRutaGetController
+  methods: POST
+
 ruta_generada_get:
-  path: /abstractcontroller/ruta-generada-get/{parametrostring1}/{valorPorDefecto}/{paramtronumerico1}/{parametrostring2}/
+  path: /abstractcontroller/ruta-generada-get/{parametrostring1}/{valorpordefecto}/{parametronumerico1}/{parametrostring2}/
   controller: App\Controller\AbstractController\RutasGeneradas\RutaGeneradaGetController
   methods: GET
   defaults:
-    valorPorDefecto: 'valorpordefecto'
+    valorpordefecto: 'valorpordefecto'
 
-ruta_generada_post:
-  path: /abstractcontroller/ruta-generada-post/{valorpordefecto}/
-  controller: App\Controller\AbstractController\RutasGeneradas\RutaGeneradaPostController
-  methods: POST
-  defaults:
-    valorpordefecto: 'pordefecto'
+ruta_generada_get_sin_parametros:
+  path: /abstractcontroller/ruta-generada-get/
+  controller: App\Controller\AbstractController\RutasGeneradas\RutaGeneradaGetController
+  methods: GET
 
 #########################################################################################################################################
 ######################## Pruebas redis
