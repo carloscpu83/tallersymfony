@@ -24,5 +24,23 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
+#    App\Services\Redis\ConectarRedis:
+#        arguments:
+#            $scheme: 'env(%REDIS_SCHEME%)'
+#            $host: 'env(%REDIS_HOST%)'
+#            $port: 'env(%REDIS_PORT%)'
+#            $database: 'env(%REDIS_DATABASE%)'
+#
+#    App\Services\Redis\DesconectarRedis:
+#
+#    App\Services\Redis\GuardarClaveValorRedis:
+#        arguments:
+#            $conectarRedis: '@App\Services\Redis\ConectarRedis'
+#            $desconectarRedis: '@App\Services\Redis\DesconectarRedis'
+#
+#    App\Controller\Redis\AgregarClaveValorRedisController:
+#        arguments:
+#            $guardarClaveValorRedis: '@App\Services\Redis\GuardarClaveValorRedis'
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

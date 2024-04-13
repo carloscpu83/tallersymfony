@@ -65,4 +65,4 @@ ruta_generada_get_sin_parametros:
 ruta_redis_clave_valor:
   path: /redis/set/clavevalor/
   methods: POST
-  controller: App\Controller\Redis\PrubaClaveValorController
+  controller: App\Controller\Redis\AgregarClaveValorRedisController

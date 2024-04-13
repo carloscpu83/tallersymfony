@@ -65,12 +65,12 @@ https://symfonycasts.com/screencast/symfony-doctrine/install
 https://symfony.com/doc/current/doctrine/associations.html
 
 #################################################################
-######### Documentación de DoctrineMigrationsBundle
+######### Documentacion de DoctrineMigrationsBundle
 #################################################################
 https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html
 
 #################################################################
-######### Documentación de EasyAdmin
+######### Documentacion de EasyAdmin
 #################################################################
 https://symfony.com/bundles/EasyAdminBundle/current/index.html
 
@@ -80,12 +80,12 @@ https://symfony.com/bundles/EasyAdminBundle/current/index.html
 https://symfonycasts.com/screencast/easyadminbundle
 
 #################################################################
-######### Configuración de referencia del *framework* Symfony
+######### Configuracion de referencia del *framework* Symfony
 #################################################################
 https://symfony.com/doc/current/reference/configuration/framework.html
 
 #################################################################
-######### Documentación de Twig
+######### Documentacion de Twig
 #################################################################
 https://twig.symfony.com/doc/2.x/
 
@@ -130,7 +130,7 @@ https://symfony.com/doc/current/components/console/events.html
 https://symfony.com/doc/current/doctrine/events.html
 
 #################################################################
-######### La documentación del componente String
+######### La documentacion del componente String
 #################################################################
 https://symfony.com/doc/current/components/string.html
 
@@ -150,7 +150,7 @@ https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/services_en
 https://symfonycasts.com/screencast/symfony-forms
 
 #################################################################
-######### Cómo personalizar la presentación (renderizado) de formularios Symfony en HTML
+######### Como personalizar la presentacion (renderizado) de formularios Symfony en HTML
 #################################################################
 https://symfony.com/doc/current/form/form_customization.html
 
@@ -165,17 +165,17 @@ https://symfony.com/doc/current/forms.html#validating-forms
 https://symfony.com/doc/current/reference/forms/types.html
 
 #################################################################
-######### La documentación de FlysystemBundle, que proporciona integración con múltiples proveedores de almacenamiento en nube, como AWS S3, Azure y Google Cloud Storage
+######### La documentacion de FlysystemBundle, que proporciona integracion con múltiples proveedores de almacenamiento en nube, como AWS S3, Azure y Google Cloud Storage
 #################################################################
 https://github.com/thephpleague/flysystem-bundle/blob/3.x/docs/1-getting-started.md
 
 #################################################################
-######### Los parámetros de configuración de Symfony
+######### Los parámetros de configuracion de Symfony
 #################################################################
 https://symfony.com/doc/current/configuration.html#configuration-parameters
 
 #################################################################
-######### Las Restricciones de Validación de Symfony
+######### Las Restricciones de Validacion de Symfony
 #################################################################
 https://symfony.com/doc/current/validation.html#basic-constraints
 
@@ -185,7 +185,7 @@ https://symfony.com/doc/current/validation.html#basic-constraints
 https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony2/how_symfony2_forms_works_en.pdf
 
 #################################################################
-######### La documentación de Symfony Security
+######### La documentacion de Symfony Security
 #################################################################
 https://symfony.com/doc/current/security.html
 
@@ -195,7 +195,7 @@ https://symfony.com/doc/current/security.html
 https://symfonycasts.com/screencast/symfony-security
 
 #################################################################
-######### Cómo crear un formulario de inicio de sesión en aplicaciones Symfony
+######### Como crear un formulario de inicio de sesion en aplicaciones Symfony
 #################################################################
 https://symfony.com/doc/current/security.html#form-login
 
@@ -205,7 +205,7 @@ https://symfony.com/doc/current/security.html#form-login
 https://github.com/andreia/symfony-cheat-sheets/blob/master/Symfony4/security_en_44.pdf
 
 #################################################################
-######### La documentación del componente HttpClient
+######### La documentacion del componente HttpClient
 #################################################################
 https://symfony.com/doc/current/http_client.html
 
@@ -235,7 +235,7 @@ https://symfony.com/doc/current/components/dom_crawler.html
 https://symfony.com/doc/current/testing.html#testing-application-assertions
 
 #################################################################
-######### Documentación de PHPUnit
+######### Documentacion de PHPUnit
 #################################################################
 https://phpunit.de/documentation.html
 
@@ -245,7 +245,7 @@ https://phpunit.de/documentation.html
 https://github.com/fzaninotto/Faker
 
 #################################################################
-######### La documentación del componente CssSelector
+######### La documentacion del componente CssSelector
 #################################################################
 https://symfony.com/doc/current/components/css_selector.html
 
@@ -255,7 +255,7 @@ https://symfony.com/doc/current/components/css_selector.html
 https://github.com/symfony/panther
 
 #################################################################
-######### La documentación Make/Makefile
+######### La documentacion Make/Makefile
 #################################################################
 https://www.gnu.org/software/make/manual/make.html
 
@@ -265,17 +265,17 @@ https://www.gnu.org/software/make/manual/make.html
 https://symfonycasts.com/screencast/messenger
 
 #################################################################
-######### La arquitectura del Enterprise service bus y el patrón CQRS
+######### La arquitectura del Enterprise service bus y el patron CQRS
 #################################################################
 https://en.wikipedia.org/wiki/Enterprise_service_bus
 
 #################################################################
-######### La documentación de Symfony Messenger
+######### La documentacion de Symfony Messenger
 #################################################################
 https://symfony.com/doc/current/messenger.html
 
 #################################################################
-######### Documentación de RabbitMQ
+######### Documentacion de RabbitMQ
 #################################################################
 https://www.rabbitmq.com/documentation.html
 
@@ -285,7 +285,7 @@ https://www.rabbitmq.com/documentation.html
 https://symfony.com/doc/current/workflow/workflow-and-state-machine.html
 
 #################################################################
-######### Los documentación de Workflow de Symfony
+######### Los documentacion de Workflow de Symfony
 #################################################################
 https://symfony.com/doc/current/workflow.html
 
@@ -295,7 +295,7 @@ https://symfony.com/doc/current/workflow.html
 https://symfonycasts.com/screencast/mailer
 
 #################################################################
-######### La documentación del lenguaje de plantillas Inky
+######### La documentacion del lenguaje de plantillas Inky
 #################################################################
 https://foundation.zurb.com/emails/docs/inky.html
 
@@ -305,12 +305,12 @@ https://foundation.zurb.com/emails/docs/inky.html
 https://symfony.com/doc/current/configuration/env_var_processors.html
 
 #################################################################
-######### La documentación del componente Mailer del framework Symfony
+######### La documentacion del componente Mailer del framework Symfony
 #################################################################
 https://symfony.com/doc/current/mailer.html
 
 #################################################################
-######### La documentación de SymfonyCloud sobre correos electrónicos
+######### La documentacion de SymfonyCloud sobre correos electronicos
 #################################################################
 https://symfony.com/doc/current/cloud/services/emails.html
 
@@ -320,7 +320,7 @@ https://symfony.com/doc/current/cloud/services/emails.html
 https://www.cloudflare.com/es-es/
 
 #################################################################
-######### Documentación de Varnish HTTP Cache
+######### Documentacion de Varnish HTTP Cache
 #################################################################
 https://varnish-cache.org/docs/index.html
 
@@ -330,7 +330,7 @@ https://varnish-cache.org/docs/index.html
 https://www.w3.org/TR/esi-lang/
 
 #################################################################
-######### Modelo de validación de caché HTTP
+######### Modelo de validacion de caché HTTP
 #################################################################
 https://symfony.com/doc/current/http_cache/validation.html
 
@@ -340,12 +340,12 @@ https://symfony.com/doc/current/http_cache/validation.html
 https://symfony.com/doc/current/cloud/cookbooks/cache.html
 
 #################################################################
-######### Documentación de Webpack
+######### Documentacion de Webpack
 #################################################################
 https://webpack.js.org/concepts/
 
 #################################################################
-######### Documentación de Symfony Webpack Encore
+######### Documentacion de Symfony Webpack Encore
 #################################################################
 https://symfony.com/doc/current/frontend.html
 
