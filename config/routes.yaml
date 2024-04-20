@@ -60,9 +60,19 @@ ruta_generada_get_sin_parametros:
   methods: GET
 
 #########################################################################################################################################
-######################## Pruebas redis
+######################## Redis
 #########################################################################################################################################
-ruta_redis_clave_valor:
-  path: /redis/set/clavevalor/
+ruta_redis_almacenar_clave_valor:
+  path: /redis/set/clave-valor/
   methods: POST
   controller: App\Controller\Redis\AgregarClaveValorRedisController
+
+ruta_redis_obtener_clave_valor:
+  path: /redis/get/clave-valor/
+  controller: App\Controller\Redis\RecuperarClaveValorRedisController
+  methods: GET
+
+ruta_redis_eliminar_valor:
+  path: /redis/del/
+  controller: App\Controller\Redis\EliminarRedisController
+  methods: POST
