@@ -2,27 +2,24 @@
 
 namespace App\Services\Redis;
 
+use Predis\Client;
 use Throwable;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 class AgregarClaveValorRedis
 {
-    private ConectarRedis $conectarRedis;
-    private DesconectarRedis $desconectarRedis;
+    private Client $predisClient;
 
-    public function __construct(ConectarRedis $conectarRedis, DesconectarRedis $desconectarRedis)
+    public function __construct(Client $predisClient)
     {
-        $this->conectarRedis = $conectarRedis;
-        $this->desconectarRedis = $desconectarRedis;
+        $this->predisClient = $predisClient;
     }
 
     public function execute(string $key, string $value):JsonResponse
     {
         try{
-            $client = $this->conectarRedis->execute();
-            $client->set($key, $value);
-            $this->desconectarRedis->execute($client);
+            $this->predisClient->set($key, $value);
         }catch(Throwable $e){
             return new JsonResponse(['message' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
         }

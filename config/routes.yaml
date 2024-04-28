@@ -84,3 +84,8 @@ ruta_redis_eliminar_valor:
   path: /redis/del/
   controller: App\Controller\Redis\EliminarRedisController
   methods: POST
+
+ruta_redis_publicar_mensaje:
+  path: /redis/publicar/
+  controller: App\Controller\Redis\PublicarMensajeRedisController
+  methods: GET

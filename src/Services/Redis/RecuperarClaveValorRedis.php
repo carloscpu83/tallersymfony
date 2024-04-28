@@ -3,26 +3,23 @@
 namespace App\Services\Redis;
 
 use Throwable;
-use Symfony\Component\HttpFoundation\JsonResponse;
+use Predis\Client;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\JsonResponse;
 
 class RecuperarClaveValorRedis
 {
-    private ConectarRedis $conectarRedis;
-    private DesconectarRedis $desconectarRedis;
+    private Client $predisClient;
 
-    public function __construct(ConectarRedis $conectarRedis, DesconectarRedis $desconectarRedis)
+    public function __construct(Client $predisClient)
     {
-        $this->conectarRedis = $conectarRedis;
-        $this->desconectarRedis = $desconectarRedis;
+        $this->predisClient = $predisClient;
     }
 
     public function execute(string $key): JsonResponse
     {
         try{
-            $client = $this->conectarRedis->execute();
-            $value = $client->get($key);
-            $this->desconectarRedis->execute($client);
+            $value = $this->predisClient->get($key);
         }catch(Throwable $e){
             return new JsonResponse(['message' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
         }

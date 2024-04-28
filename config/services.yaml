@@ -58,13 +58,21 @@ services:
 
     App\Services\Redis\AgregarClaveValorRedis:
         arguments:
-            $conectarRedis: '@App\Services\Redis\ConectarRedis'
-            $desconectarRedis: '@App\Services\Redis\DesconectarRedis'
+            $predisClient: '@snc_redis.default'
 
     App\Services\Redis\RecuperarClaveValorRedis:
         arguments:
-            $conectarRedis: '@App\Services\Redis\ConectarRedis'
-            $desconectarRedis: '@App\Services\Redis\DesconectarRedis'
+            $predisClient: '@snc_redis.default'
+
+    App\Services\Redis\PublicarMensaje:
+        arguments:
+            $predisClient: '@snc_redis.default'
+            $canal: '%env(REDIS_CHANEL)%'
+
+    App\Command\AppConsumidorRedisCommand:
+        arguments:
+            $predisClient: '@snc_redis.default'
+            $canal: '%env(REDIS_CHANEL)%'
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
