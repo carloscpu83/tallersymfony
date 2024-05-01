@@ -47,20 +47,15 @@ services:
     #########################################################################################################################################
     ######################## Redis
     #########################################################################################################################################
-    App\Services\Redis\ConectarRedis:
-        arguments:
-            $scheme: '%env(REDIS_SCHEME)%'
-            $host: '%env(REDIS_HOST)%'
-            $port: '%env(REDIS_PORT)%'
-            $database: '%env(REDIS_DATABASE)%'
-
-    App\Services\Redis\DesconectarRedis:
-
     App\Services\Redis\AgregarClaveValorRedis:
         arguments:
             $predisClient: '@snc_redis.default'
 
     App\Services\Redis\RecuperarClaveValorRedis:
+        arguments:
+            $predisClient: '@snc_redis.default'
+
+    App\Services\Redis\EliminarRedis:
         arguments:
             $predisClient: '@snc_redis.default'
 

@@ -2,22 +2,20 @@
 
 namespace App\Services\Redis;
 
+use Predis\Client;
+
 class EliminarRedis
 {
-    private ConectarRedis $conectarRedis;
-    private DesconectarRedis $desconectarRedis;
+    private Client $predisClient;
 
-    public function __construct(ConectarRedis $conectarRedis, DesconectarRedis $desconectarRedis)
+    public function __construct(Client $predisClient)
     {
-        $this->conectarRedis = $conectarRedis;
-        $this->desconectarRedis = $desconectarRedis;
+        $this->predisClient = $predisClient;
     }
 
     public function execute(string $key):void
     {
-        $client = $this->conectarRedis->execute();
-        $client->del($key);
-        $this->desconectarRedis->execute($client);
+        $this->predisClient->del($key);
     }
 
 }

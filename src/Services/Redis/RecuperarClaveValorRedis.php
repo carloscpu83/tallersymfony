@@ -16,14 +16,8 @@ class RecuperarClaveValorRedis
         $this->predisClient = $predisClient;
     }
 
-    public function execute(string $key): JsonResponse
+    public function execute(string $key): ?string
     {
-        try{
-            $value = $this->predisClient->get($key);
-        }catch(Throwable $e){
-            return new JsonResponse(['message' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
-        }
-
-        return new JsonResponse(['data' => $value], Response::HTTP_OK);
+        return $this->predisClient->get($key);
     }
 }

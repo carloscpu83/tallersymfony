@@ -3,9 +3,6 @@
 namespace App\Services\Redis;
 
 use Predis\Client;
-use Throwable;
-use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\JsonResponse;
 
 class AgregarClaveValorRedis
 {
@@ -16,15 +13,8 @@ class AgregarClaveValorRedis
         $this->predisClient = $predisClient;
     }
 
-    public function execute(string $key, string $value):JsonResponse
+    public function execute(string $key, string $value):void
     {
-        try{
-            $this->predisClient->set($key, $value);
-        }catch(Throwable $e){
-            return new JsonResponse(['message' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
-        }
-
-        return new JsonResponse(['data' => ''], Response::HTTP_OK);
-
+        $this->predisClient->set($key, $value);
     }
 }
