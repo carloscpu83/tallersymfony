@@ -74,5 +74,9 @@ services:
             $predisClient: '@snc_redis.default'
             $canal: '%env(REDIS_CHANEL)%'
 
+    #########################################################################################################################################
+    ######################## Comandos de consola
+    #########################################################################################################################################
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

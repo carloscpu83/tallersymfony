@@ -17,5 +17,17 @@ imports:
     - { resource: '/etc/myapp/*.yaml' }
 
 ##########################################################
+########## Tipos de tags
+##########################################################
+- controller.service_arguments: Esta etiqueta se usa para indicar que el servicio es un controlador y que los argumentos del constructor deben ser inyectados automáticamente.
+- kernel.event_listener: Esta etiqueta se utiliza para marcar servicios que son event listeners. Estos servicios escuchan eventos específicos en la aplicación y responden a ellos.
+- kernel.event_subscriber: Similar a kernel.event_listener, esta etiqueta se utiliza para marcar servicios que son event subscribers. Estos servicios pueden suscribirse a múltiples eventos y manejarlos en una clase dedicada.
+- twig.extension: Se utiliza para marcar servicios que son extensiones de Twig. Estas extensiones proporcionan funciones, filtros o variables globales personalizadas que pueden ser utilizadas en plantillas Twig.
+- doctrine.event_listener: Esta etiqueta se utiliza para marcar servicios que son listeners de eventos de Doctrine. Estos servicios pueden escuchar eventos específicos de Doctrine, como prePersist, postPersist, etc.
+- form.type: Se utiliza para marcar servicios que son tipos de formularios personalizados. Estos servicios definen cómo se construyen y manejan los formularios en Symfony.
+- security.voter: Esta etiqueta se utiliza para marcar servicios que son votantes de seguridad. Los votantes de seguridad determinan si un usuario tiene acceso a un recurso específico en función de ciertos criterios.
+
+
+##########################################################
 ##########
 ##########################################################

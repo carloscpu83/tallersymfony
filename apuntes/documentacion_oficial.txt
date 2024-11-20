@@ -120,11 +120,6 @@ https://symfony.com/doc/current/components/http_kernel.html#the-workflow-of-a-re
 https://symfony.com/doc/current/reference/events.html
 
 #################################################################
-######### Los eventos Console incorporados en Symfony
-#################################################################
-https://symfony.com/doc/current/components/console/events.html
-
-#################################################################
 ######### El sistema de eventos de Doctrine (callbacks del ciclo de vida y oyentes, oyentes de entidades y suscriptores del ciclo de vida)
 #################################################################
 https://symfony.com/doc/current/doctrine/events.html
@@ -363,6 +358,16 @@ https://en.wikipedia.org/wiki/Cron
 ######### Repositorio Croncape
 #################################################################
 https://github.com/symfonycorp/croncape
+
+#################################################################
+######### Los comandos de consola
+#################################################################
+https://symfony.com/doc/current/components/console.html
+
+#################################################################
+######### Los eventos Console incorporados en Symfony
+#################################################################
+https://symfony.com/doc/current/components/console/events.html
 
 #################################################################
 ######### Comandos de Symfony Console
