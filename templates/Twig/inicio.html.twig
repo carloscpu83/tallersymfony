@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial sobre Twig</title>
+</head>
+<body>
+    <header>
+        <h1>Guia sobre Twig</h1>
+    </header>
+
+    <main>
+        {% for seccion in secciones %}
+            <section id="{{ seccion['id'] }}">
+                <h2>{{ seccion['titulo'] }}</h2>
+                <p>{% include seccion['contenido'] %}</p>
+            </section>
+        {% endfor %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Página sobre Twig. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -2,6 +2,7 @@
 
 namespace App\Controller\Enrutado;
 
+use phpDocumentor\Reflection\Types\Integer;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

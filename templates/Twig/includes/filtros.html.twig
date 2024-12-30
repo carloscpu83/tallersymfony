@@ -1,0 +1,6 @@
+{% set valor = '<p>Ejemplo con una frase</p>' %}
+
+<p>Filtros encadenados -
+    {% verbatim %}{{ valor|striptags|upper }} = {% endverbatim %}
+    {{ valor|striptags|upper }}
+</p>

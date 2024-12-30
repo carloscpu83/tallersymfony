@@ -1,0 +1,9 @@
+{% extends "Twig/includes/plantilla-base.html.twig" %}
+{% block bloqueTitulo %}
+    {{ parent() }}
+    <div>Este titulo agrega contenido desde la plantilla heredada</div>
+{% endblock %}
+{% block bloqueNoticia %}
+    {{ parent() }}
+    <div>Esta noticia agrega contenido desde la plantilla heredada</div>
+{% endblock %}
